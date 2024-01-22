@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon microservicio1/servicio.js & nodemon microservicio2/servicio.js"
+    "start": "concurrently \"nodemon microservicio1/servicio.js\" \"nodemon microservicio2/servicio.js\""
   },
   "keywords": [],
   "author": "",
@@ -14,5 +14,8 @@
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "nodemon": "^3.0.3"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
   }
 }

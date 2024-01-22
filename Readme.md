@@ -44,6 +44,7 @@ Este proyecto utiliza las siguientes dependencias:
 - `express`: Un marco de aplicación web para Node.js
 - `axios`: Un cliente HTTP basado en promesas para el navegador y Node.js
 - `nodemon`: Una herramienta que ayuda a desarrollar aplicaciones basadas en node.js al reiniciar automáticamente la aplicación de nodo cuando se detectan cambios de archivo en el directorio.
+- `concurrently`: Una herramienta para ejecutar múltiples comandos npm concurrentemente. Es útil cuando se tienen múltiples servidores o tareas que se quieren ejecutar al mismo tiempo.
 
 ## Licencia
 
