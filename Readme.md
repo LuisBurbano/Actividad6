@@ -31,6 +31,12 @@ npm start
 ```
 En caso de existir errores, inicia cada microservicio en terminales separadas con el comando `nodemon servicio.js`
 
+En el caso del Cliente es necesario utilizar 
+
+```bash
+npm run dev
+```
+
 ## Dependencias
 
 Este proyecto utiliza las siguientes dependencias:
