@@ -31,7 +31,7 @@ npm start
 ```
 En caso de existir errores, inicia cada microservicio en terminales separadas con el comando `node servicio.js`
 
-En el caso del Cliente es necesario utilizar ya que utilia `vite`
+En el caso del Cliente es necesario utilizar ya que utiliza `vite`
 
 ```bash
 npm run dev
