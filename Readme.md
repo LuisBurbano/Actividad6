@@ -29,9 +29,9 @@ Para iniciar los microservicios, navega a sus respectivas carpetas y ejecuta el 
 ```bash
 npm start
 ```
-En caso de existir errores, inicia cada microservicio en terminales separadas con el comando `nodemon servicio.js`
+En caso de existir errores, inicia cada microservicio en terminales separadas con el comando `node servicio.js`
 
-En el caso del Cliente es necesario utilizar 
+En el caso del Cliente es necesario utilizar ya que utilia `vite`
 
 ```bash
 npm run dev
