@@ -1,3 +1,7 @@
+Integrantes:
+Mateo Condor
+Karol Macas
+Luis Burbano
 # Proyecto de Microservicios
 
 En la raiz del proyecto se ejecuta el comando 
