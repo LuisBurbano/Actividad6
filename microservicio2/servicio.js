@@ -6,7 +6,25 @@ const puerto = 3002;
 app.use(cors()); // Habilita CORS
 
 app.get('/', (req, res) => {
-    res.send('¡Hola desde el Microservicio 2!');
+    const db = [
+        {
+            id: 1,
+            firstname: 'Mateo',
+            lastname: 'Condor',
+        },
+        {
+            id: 2,
+            firstname: 'Karol',
+            lastname: 'Macas',
+        },
+        {
+            id: 3,
+            firstname: 'Luis',
+            lastname: 'Burbano',
+        }
+    ]
+
+    res.send(db);
 });
 
 app.listen(puerto, () => {
