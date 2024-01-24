@@ -1,26 +1,33 @@
 # Proyecto de Microservicios
 
-Este proyecto sirve como ejemplo de la creacion de dos microservicios que se comunican entre sí.
+En la raiz del proyecto se ejecuta el comando 
+npm install
+npm install nodemon
 
 ## Microservicio 1
 
-El Microservicio 1 se encuentra en la carpeta `microservicio1` y se ejecuta en el puerto 3001. Este microservicio recibe solicitudes HTTP y las procesa.
-
-El archivo principal es `servicio.js`, que inicia un servidor Express y define varias rutas.
+Los comandos usados para ejecutar el microservicio son:
+cd .\microservicio1\
+npm init -y
+npm i express cors
+node .\servicio.js
 
 ## Microservicio 2
 
-El Microservicio 2 se encuentra en la carpeta `microservicio2` y se ejecuta en el puerto 3002. Este microservicio recibe solicitudes del Microservicio 1 y devuelve respuestas.
+Los comandos usados para ejecutar el microservicio son:
+cd .\microservicio1\
+npm init -y
+npm i express cors
+node .\servicio.js
 
-Al igual que el Microservicio 1, el archivo principal es `servicio.js`.
+## Instalación del cliente
 
-## Instalación
+Los comandos usados para ejecutar el microservicio son:
 
-Para instalar las dependencias del proyecto, ejecuta el siguiente comando en tu terminal:
-
-```bash
-npm i
-```
+cd .\cliente-microservicios\
+npm create vite@lastest .
+npm i axios
+npm run dev
 
 ## Ejecución
 
